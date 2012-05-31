@@ -4,8 +4,8 @@ require File.expand_path('../lib/happy-cli/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Hendrik Mans"]
   gem.email         = ["hendrik@mans.de"]
-  gem.description   = %q{CLI tool for Happy, the happy web application framework for Ruby.}
-  gem.summary       = %q{CLI tool for Happy, the happy web application framework for Ruby.}
+  gem.description   = %q{Command line tool for the Happy web application toolkit.}
+  gem.summary       = %q{Command line tool for the Happy web application toolkit.}
   gem.homepage      = "https://github.com/hmans/happy-cli"
 
   gem.files         = `git ls-files`.split($\)
