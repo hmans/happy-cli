@@ -24,7 +24,7 @@ module HappyCLI
         if options[:git]
           run "git init"
           run "git add ."
-          run "git commit -m 'Created new Schnitzelpress blog'"
+          run "git commit -m 'Created new Happy application using the '#{options[:template]}' template'"
         end
       end
     end
