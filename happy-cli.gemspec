@@ -13,5 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "happy-cli"
   gem.require_paths = ["lib"]
-  gem.version       = Happy::Cli::VERSION
+  gem.version       = HappyCLI::VERSION
+
+  gem.add_dependency 'thor', '~> 0.15'
 end

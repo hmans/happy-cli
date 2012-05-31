@@ -1,5 +1,3 @@
-module Happy
-  module Cli
-    VERSION = "0.0.1"
-  end
+module HappyCLI
+  VERSION = "0.0.1"
 end
