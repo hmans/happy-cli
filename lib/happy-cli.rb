@@ -5,7 +5,7 @@ module HappyCLI
   class Command < Thor
     include Thor::Actions
 
-    source_root(File.expand_path('../templates', __FILE__))
+    source_root(File.expand_path('../happy-cli/templates', __FILE__))
 
     desc "new NAME", "Creates a new Happy application."
 
