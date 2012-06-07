@@ -2,7 +2,10 @@ require 'rubygems'
 require 'bundler/setup'
 Bundler.require
 
-require 'happy/ext/permissions'
-require 'happy/utils/app_spawner'
+require 'happy/extras/scriptable'
 
-run Happy::Utils::AppSpawner.new
+Happy.route do
+  run Happy::Extras::Scriptable, :directory => './app'
+end
+
+run Happy
